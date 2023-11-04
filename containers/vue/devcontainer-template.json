@@ -11,6 +11,7 @@
 			"type": "string",
 			"description": "Node.js version (use -bullseye variants on local arm64/Apple Silicon):",
 			"proposals": [
+				"20",
 				"18",
 				"16",
 				"14",
@@ -21,7 +22,7 @@
 				"16-buster",
 				"14-buster"
 			],
-			"default": "16"
+			"default": "20"
 		}
 	},
 	"platforms": [
